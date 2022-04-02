@@ -1,0 +1,181 @@
+header{
+    background-color: rgb(164, 52, 142);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+header h1{
+    font-weight: bold;
+    color: aquamarine;
+    padding-left: 20px;
+    margin: 20px;
+    padding-top: 8px;
+    
+    
+
+}
+header a{
+    text-decoration: none;
+
+}
+header nav {
+    margin: 7px 0px;
+    padding-top: 20px;
+    
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 20px;
+
+}
+header nav ul li{
+    padding-right: 20px;
+
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: 5px  solid;
+
+
+}
+header nav ul li a:hover{
+    background-color: aqua;
+}
+.hero{
+   
+    display: flex;
+    justify-content: space-between;
+    background-image: url(Landscape-Color.jpg);
+    background-size: cover;
+    align-items: stretch;
+    
+  
+
+}
+#img img{
+    size: 100px;
+    height: 230px;
+   
+    
+}
+.subtitle{
+    padding-top: 150px;
+    padding-right: 80px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: blue;
+    
+}
+.about-me{
+    display: flex;
+    align-items: stretch;
+    padding: 30px 20%;
+
+}
+.me{
+    padding-right: 60px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.osman{
+    border-left: solid;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+.my-work{
+    display: flex;
+    padding: 30px 20%;
+    flex-wrap: wrap;
+}
+.work1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 70px;
+   
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 2);
+    justify-content: center;
+    border-left: solid;
+    padding-left: 30px;
+}
+.works{
+    padding-right: 20px;
+    width: 100%;
+    background-image: url(hero-bg.jpg);
+    background-size: contain;
+    color: aqua;
+    height: 200px;
+    border: solid chocolate;
+    cursor: pointer;
+    font-size: 40px;
+    
+
+}
+.works:hover{
+   color: #fce138;
+   border-color: #fce138;
+  
+}
+.works2{
+    
+    width: 100%;
+    background-image: url(download.jpg);
+    color: red;
+    border: solid chocolate;
+    margin-top: 10px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+
+.works2:hover{
+    color: #fce138;
+   border-color: #fce138;
+
+}
+.works3{
+    width: 100%;
+    background-image:url(portofolio.jpg) ;
+    background-size: cover;
+    color:chartreuse ;
+    border: solid chocolate;
+    margin-top:10px;
+ 
+}
+.contact{
+    display: flex;
+    align-items: stretch;
+    padding: 30px 20%;
+}
+.my-contact{
+    padding-right: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    border-left: solid;
+    width: 100%;
+    padding-left: 90px;
+    margin-left: 0px;
+    padding-top: 60px;
+}
+

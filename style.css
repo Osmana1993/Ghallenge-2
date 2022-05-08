@@ -2,8 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-header{
+}
+
+header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
@@ -18,30 +19,34 @@ header{
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-    
+
 
 }
-header h1{
+
+header h1 {
     font-weight: bold;
     color: yellow;
     padding-left: 20px;
     margin: 20px;
     padding-top: 8px;
-    
-    
+
+
 
 }
-header a{
+
+header a {
     text-decoration: none;
     color: #fce138;
 
 }
+
 header nav {
     margin: 7px 0px;
     padding-top: 20px;
-    
+
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -50,81 +55,91 @@ header nav ul{
     padding-right: 20px;
 
 }
-header nav ul li{
+
+header nav ul li {
     padding-right: 20px;
     font-size: 30px
-
 }
-header nav ul li a{
+
+header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    border-bottom: 5px  solid;
+    border-bottom: 5px solid;
 
 
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     background-color: yellow;
     color: aqua;
 }
-.hero{
-   
+
+.hero {
+
     display: flex;
     justify-content: space-between;
     background-image: url(old-brick-black-color-wall-260nw-1605128917.webp);
     background-size: cover;
     align-items: stretch;
-    
-  
+
+
 
 }
-#img img{
+
+#img img {
     size: 100px;
     height: 230px;
-   
-    
+
+
 }
-.subtitle{
+
+.subtitle {
     padding-top: 150px;
     padding-right: 80px;
     font-weight: lighter;
     font-size: 1.55vw;
     color: blue;
-    
+
 }
-.about-me{
+
+.about-me {
     margin-top: 70px;
     display: flex;
     align-items: stretch;
     padding: 30px 20%;
 
 }
-.about-me h4{
+
+.about-me h4 {
     padding-right: 50px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.osman{
+.osman {
     border-left: solid;
     padding-left: 30px;
     line-height: 1.5;
 }
-.my-work{
+
+.my-work {
     margin-top: 70px;
     display: flex;
     padding: 30px 20%;
     flex-wrap: wrap;
 }
-.my-work h4{
+
+.my-work h4 {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: flex-start;
     padding-right: 61px;
-   
+
 }
-.article{
+
+.article {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 2);
@@ -132,7 +147,8 @@ header nav ul li a:hover{
     border-left: solid;
     padding-left: 30px;
 }
-.works{
+
+.works {
     padding-right: 20px;
     width: 100%;
     background-image: url(hero-bg.jpg);
@@ -142,16 +158,18 @@ header nav ul li a:hover{
     border: solid chocolate;
     cursor: pointer;
     font-size: 40px;
-    
+
 
 }
-.works:hover{
-   color: greenyellow;
-   border-color: #fce138;
-  
+
+.works:hover {
+    color: greenyellow;
+    border-color: #fce138;
+
 }
-.works2{
-    
+
+.works2 {
+
     width: 100%;
     background-image: url(download.jpg);
     color: red;
@@ -163,39 +181,59 @@ header nav ul li a:hover{
 }
 
 
-.works2:hover{
+.works2:hover {
     color: #fce138;
-   border-color: #fce138;
+    border-color: #fce138;
 
 }
-.works3{
+
+.works3 {
     width: 100%;
-    background-image:url(portofolio.jpg) ;
+    background-image: url(portofolio.jpg);
     background-size: cover;
-    color:chartreuse ;
+    color: chartreuse;
     border: solid chocolate;
-    margin-top:10px;
- 
+    margin-top: 10px;
+
 }
-.works3:hover{
+
+.works3:hover {
     color: #fce138;
     border-color: #fce138;
 }
-.contact{
+
+.works4 {
+    width: 100%;
+    background-image: url(food.jpg);
+    background-size: cover;
+    color: chartreuse;
+    border: solid chocolate;
+    margin-top: 10px;
+
+}
+
+.works4:hover {
+    color: #fce138;
+    border-color: #fce138;
+}
+
+.contact {
     margin-top: 70px;
     display: flex;
     align-items: stretch;
     padding: 30px 20%;
 }
-footer h4{
+
+footer h4 {
     padding-right: 20px;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
+
+
 
 }
-form{
+
+form {
     display: flex;
     justify-content: space-between;
     border-left: solid;
@@ -204,76 +242,94 @@ form{
     margin-left: 0px;
     padding-top: 60px;
 }
+
 @media screen and (max-width: 980px) {
 
     header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative
     }
+
     header h1 {
         width: 100%;
         text-align: center;
         padding-right: 20px;
-      }
-      header nav ul {
+    }
+
+    header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
         padding-bottom: 30px;
-      }
-      header nav ul li a {
+    }
+
+    header nav ul li a {
         font-size: 20px;
-      }
-      form{
-          display: flex;
-          flex-direction: column;
-          
-      }
-      .phone{
-          padding-bottom: 20px;
-      }
-      .email{
-          padding-bottom: 20px;
-      }
-     
-    
-      
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .phone {
+        padding-bottom: 20px;
+    }
+
+    .email {
+        padding-bottom: 20px;
+    }
+
+
+
 }
+
 @media screen and (max-width: 768px) {
     section {
-      width: 100%;
-    
+        width: 100%;
+
     }
+
     .works h4 {
-       font-size: 20px;
+        font-size: 20px;
     }
+
     .works2 h4 {
         font-size: 20px;
         color: yellow;
-     }
-     .works3 h4 {
+    }
+
+    .works3 h4 {
         font-size: 20px;
-     }
+    }
 
 }
+
 @media screen and (max-width: 575px) {
-    header nav ul li{
-        display:flex;
+    header nav ul li {
+        display: flex;
         flex-direction: column;
     }
-    .my-work{
+
+    .my-work {
         display: flex;
         height: 50%;
     }
 
 }
+
 .some-class {
     text-shadow: 5px 10px 15px black;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
-  }
-  .rounded-corners {
-    -webkit-border-radius: 10px; /* old versions of chrome and safari */
-    -moz-border-radius: 10px; /* old versions of firefox */
-    border-radius: 10px; /* standardized browsers */
-  }
+}
+
+.rounded-corners {
+    -webkit-border-radius: 10px;
+    /* old versions of chrome and safari */
+    -moz-border-radius: 10px;
+    /* old versions of firefox */
+    border-radius: 10px;
+    /* standardized browsers */
+}

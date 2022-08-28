@@ -230,6 +230,20 @@ header nav ul li a:hover {
     color: #fce138;
     border-color: #fce138;
 }
+.works6 {
+    width: 100%;
+    background-image: url(food.jpg);
+    background-size: cover;
+    color: chartreuse;
+    border: solid chocolate;
+    margin-top: 10px;
+
+}
+
+.works6:hover {
+    color: #fce138;
+    border-color: #fce138;
+}
 
 .contact {
     margin-top: 70px;
